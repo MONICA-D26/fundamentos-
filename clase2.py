@@ -78,3 +78,5 @@ elif variable2 == 0:
     if condicional lo que se va a ejecutar 
 
 else se ejecurta en dado caso no se cumpla la cnmdicional"""
+ 
+print("hola enca")
