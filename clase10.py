@@ -71,7 +71,9 @@ def suma(self, numero):
 
 
 
+
 calculo = Calculadora2 (0)
+
 
 
 
