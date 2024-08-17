@@ -73,17 +73,8 @@ elif variable2 == 0:
 
 
 
-   """ variable = 10 
+""" variable = 10 
 
     if condicional lo que se va a ejecutar 
 
 else se ejecurta en dado caso no se cumpla la cnmdicional"""
-
-
-
-numeroDado = 7 
-
-if numeroDado % 2 == 0:
-    print("el numeroes par")
-else:
-    pint("el numero es impar")

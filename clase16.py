@@ -17,5 +17,4 @@ with open("file2.txt", "r") as i:
     print(lineas)
 
 with open("file3.txt", "a") as archivo:
-    archivo.write("oscar\nAlejandra\nPedro123\n")
-    
+    archivo.write("Oscar\nAlejandra\nPedro123\n")
