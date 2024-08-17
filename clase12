@@ -1,0 +1,36 @@
+
+class Curso:
+    def __init__(self, nombre, curso):
+        self.nombre,curso = nombre,curso
+        self.estudiantes = []
+        self.notas ={}
+        
+    def agregar_estudiantes(self, nombre, estudiante):
+        if nombre_estudiante not in self.estudiantes:
+            self.estudiantes.append(nombre_estudiante)
+            self.notas[nombre_estudiante]= []
+            print(f"el estudiante {nombre_estudiante}ha sido agregado al {self.nombre_curso}")
+
+        else:
+            print(f"el estudiante {nombre_estudiante}ya esta en el curso.")
+
+    def asignar_nota (self, nombre_estudiante, nota):
+        if nombre_estudiante in self.estudiantes:
+            self.notas[nombre_estudiante].append(nota)
+            print(f"la nota {nota},fue asignada al estudiante{nombre_estudiante}.")
+
+        else:
+            print("el estudiante no esta en el curso")
+
+    def promedio_estudiante(self.nombre_estudiante)
+        if nombre_estudiante in self.estudiantes
+           notas= self.notas[nombre_estudiante]
+            if notas:
+                promedio = sum(notas) / len(notas)
+                return promedio
+            else:
+
+                print(f"el estudiante {nombre_estudiante} no tiene notas asignadas.)
+                      
+
+        
